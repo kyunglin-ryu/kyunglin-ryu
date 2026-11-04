@@ -1,5 +1,6 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 import { collectProfile } from './collect-profile.mjs';
 import { renderDashboard } from './render-dashboard.mjs';
 
@@ -9,8 +10,10 @@ const escapeAttribute = (value) => String(value).replaceAll('&', '&amp;').replac
 const rank = profile.rank === null ? 'unranked' : `rank #${new Intl.NumberFormat('en-US').format(profile.rank)}`;
 // Collect and render everything before replacing any published file.
 const dashboard = renderDashboard(profile);
+const imageVersion = createHash('sha256').update(dashboard).digest('hex').slice(0, 12);
+const imageUrl = `https://raw.githubusercontent.com/${profile.username}/${profile.username}/main/assets/profile.svg?v=${imageVersion}`;
 const readme = `<a href="${escapeAttribute(profile.profileUrl)}">
-  <img src="./assets/profile.svg" alt="${escapeAttribute(profile.displayName)} — AI coding activity, model mix, token usage, and Tokscale ${escapeAttribute(rank)} by all-time tokens" width="1000">
+  <img src="${imageUrl}" alt="${escapeAttribute(profile.displayName)} — AI coding activity, model mix, token usage, and Tokscale ${escapeAttribute(rank)} by all-time tokens" width="1000">
 </a>
 
 <p align="center">
