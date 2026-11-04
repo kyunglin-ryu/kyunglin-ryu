@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="728" viewBox="0 0 1000 728" role="img" aria-labelledby="dashboard-title dashboard-desc" lang="en">
+<title id="dashboard-title">hyunjae · public AI activity dashboard</title>
+<desc id="dashboard-desc">hyunjae (@nowhere-present): 145,041,114,872 all-time AI tokens; Tokscale all-time token ranking rank 184. 197 active days from 2025-11-05 through 2026-11-04, based only on public Tokscale submissions, not GitHub activity. Token totals include cached tokens. Model costs are estimates, not paid spend. Source updated 2026-11-04 UTC. Collected 2026-11-04 UTC.</desc>
+<defs>
+  <style>:root{--bg:#09090e;--surface:#121218;--fg:#f5f3ff;--muted:#a5a2b5;--border:#2b2936;--accent:#bba4ff;--c1:#a78bfa;--c2:#67d7e8;--c3:#818cf8;--c4:#e5a0cf;--c5:#8dcab0;--c6:#d6ba7c;--track:#24222f;--heat0:#24222e;--heat1:#453461;--heat2:#71529b;--heat3:#aa83dc;--heat4:#d2b5ff;--glow:#25203c;--pill:#211c31;color-scheme:dark}text{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-variant-numeric:tabular-nums}a{text-decoration:none}a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}</style>
+  <linearGradient id="token-accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bba4ff"/><stop offset="1" stop-color="#67d7e8"/></linearGradient>
+  <radialGradient id="token-glow"><stop offset="0" stop-color="#25203c" stop-opacity="0.9"/><stop offset="1" stop-color="#121218" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1000" height="728" rx="24" fill="var(--bg)"/>
+
+[Showing lines 1-9 of 15 (50.0KB limit). Use :10 to continue]
