@@ -1,5 +1,5 @@
 <a href="https://tokscale.ai/u/kyunglin-ryu">
-  <img src="https://raw.githubusercontent.com/kyunglin-ryu/kyunglin-ryu/main/assets/profile.svg?v=4dbd1e74df4e" alt="kyunglin-ryu · AI coding activity, model mix, token usage, and Tokscale rank #478 by all-time tokens" width="1000">
+  <img src="https://raw.githubusercontent.com/kyunglin-ryu/kyunglin-ryu/main/assets/profile.svg?v=87ec21039502" alt="kyunglin-ryu · AI coding activity, model mix, token usage, and Tokscale rank #478 by all-time tokens" width="1000">
 </a>
 
 <p align="center">
@@ -18,7 +18,7 @@
 - Rank is **all-time, sorted by tokens**, not monthly rank or cost rank.
 - The profile uses one black dashboard, regardless of GitHub's theme.
 - [GitHub Actions](https://github.com/kyunglin-ryu/kyunglin-ryu/actions/workflows/profile-dashboard.yml) refreshes the dashboard every six hours. Manual refresh is available with **Run workflow**. Scheduled runs and image caches can delay visibility.
-- `tokscale submit` updates the source usage. This repository only reads public statistics: it does not read local conversations, submit usage logs, or access private GitHub activity.
+- Run `npx --yes tokscale@latest submit` on this computer to publish new usage. GitHub Actions only reads public statistics: it does not read local conversations, submit usage logs, or access private GitHub activity.
 - Regenerate locally with Node.js 22 or newer:
 
   `node scripts/update-profile.mjs`

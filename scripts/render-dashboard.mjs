@@ -136,12 +136,12 @@ function heatmap(data, width) {
   }
   const summaryY = 285;
   markup += text(28, summaryY, `${data.active} active ${data.active === 1 ? 'day' : 'days'}`, { size: 14, weight: 600 });
-  markup += text(width - 28, summaryY, `${dateKey(data.start)} — ${dateKey(data.end)}`, { size: 11, fill: 'muted', anchor: 'end' });
+  markup += text(width - 28, summaryY, `${dateKey(data.start)} to ${dateKey(data.end)}`, { size: 11, fill: 'muted', anchor: 'end' });
   const legendY = 322;
   markup += text(28, legendY, 'Public Tokscale submissions', { size: 10.5, fill: 'muted' });
-  markup += text(width - 119, legendY, 'Less', { size: 9, fill: 'muted' });
+  markup += text(width - 131, legendY, 'Less', { size: 9, fill: 'muted' });
   for (let level = 0; level < 5; level += 1) {
-    markup += `<rect x="${width - 93 + level * 10}" y="${legendY - 7}" width="7" height="7" rx="1.5" fill="var(--heat${level})"/>`;
+    markup += `<rect x="${width - 105 + level * 10}" y="${legendY - 7}" width="7" height="7" rx="1.5" fill="var(--heat${level})"/>`;
   }
   markup += text(width - 27, legendY, 'More', { size: 9, fill: 'muted', anchor: 'end' });
   return markup;
