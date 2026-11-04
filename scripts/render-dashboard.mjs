@@ -12,6 +12,7 @@ const CLIENT_NAMES = {
   'claude-code': 'Claude Code', claude: 'Claude Code', claude_code: 'Claude Code',
   codex: 'Codex', 'codex-cli': 'Codex', opencode: 'OpenCode', cursor: 'Cursor',
   gemini: 'Gemini CLI', 'gemini-cli': 'Gemini CLI', amp: 'Amp',
+  omp: 'OMP',
   pi: 'Pi', 'pi-agent': 'Pi', openclaw: 'OpenClaw', droid: 'Droid',
   copilot: 'GitHub Copilot', 'github-copilot': 'GitHub Copilot',
 };

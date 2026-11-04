@@ -13,7 +13,7 @@ const dashboard = renderDashboard(profile);
 const imageVersion = createHash('sha256').update(dashboard).digest('hex').slice(0, 12);
 const imageUrl = `https://raw.githubusercontent.com/${profile.username}/${profile.username}/main/assets/profile.svg?v=${imageVersion}`;
 const readme = `<a href="${escapeAttribute(profile.profileUrl)}">
-  <img src="${imageUrl}" alt="${escapeAttribute(profile.displayName)} — AI coding activity, model mix, token usage, and Tokscale ${escapeAttribute(rank)} by all-time tokens" width="1000">
+  <img src="${imageUrl}" alt="${escapeAttribute(profile.displayName)} · AI coding activity, model mix, token usage, and Tokscale ${escapeAttribute(rank)} by all-time tokens" width="1000">
 </a>
 
 <p align="center">
@@ -36,6 +36,8 @@ const readme = `<a href="${escapeAttribute(profile.profileUrl)}">
 - Regenerate locally with Node.js 22 or newer:
 
   \`node scripts/update-profile.mjs\`
+
+- Dashboard UI adapted from [Hyunjae's profile](https://github.com/nowhere-present/nowhere-present).
 
 </details>
 `;
