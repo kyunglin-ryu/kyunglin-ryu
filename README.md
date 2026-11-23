@@ -1,5 +1,5 @@
 <a href="https://tokscale.ai/u/kyunglin-ryu">
-  <img src="https://raw.githubusercontent.com/kyunglin-ryu/kyunglin-ryu/main/assets/profile.svg?v=8f4ac028180a" alt="kyunglin-ryu · AI coding activity, model mix, token usage, and Tokscale rank #536 by all-time tokens" width="1000">
+  <img src="https://raw.githubusercontent.com/kyunglin-ryu/kyunglin-ryu/main/assets/profile.svg?v=fc66be2f8359" alt="kyunglin-ryu · AI coding activity, model mix, token usage, and Tokscale rank #538 by all-time tokens" width="1000">
 </a>
 
 <p align="center">
